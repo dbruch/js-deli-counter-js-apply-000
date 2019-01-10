@@ -15,7 +15,10 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  var msg = 'The line is currently: ';
+  var msg = '';
+  if (line.length > 0) {
+    
+  }
   for (var i = 0; i < line.length; i++) {
     msg += `${i+1}. ${line[i];
   }
