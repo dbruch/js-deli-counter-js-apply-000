@@ -17,12 +17,14 @@ function nowServing(line) {
 function currentLine(line) {
   var msg = '';
   if (line.length > 0) {
-    
+    msg = 'The line is currently: ';
+    for (var i = 0; i < line.length; i++) {
+      msg += `, ${i+1}. ${line[i]}`;
+    }
+  } else {
+    msg = 'The line is curretly empty.';
   }
-  for (var i = 0; i < line.length; i++) {
-    msg += `${i+1}. ${line[i]};
-  }
+  return msg;
 }
-
 
 
