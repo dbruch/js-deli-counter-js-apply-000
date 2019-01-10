@@ -13,3 +13,13 @@ function nowServing(line) {
   }
   return msg;
 }
+
+function currentLine(line) {
+  var msg = 'The line is currently: ';
+  for (var i = 0; i < line.length; i++) {
+    msg += `${i+1}. ${line[i];
+  }
+}
+
+
+
