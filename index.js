@@ -19,7 +19,11 @@ function currentLine(line) {
   if (line.length > 0) {
     msg = 'The line is currently: ';
     for (var i = 0; i < line.length; i++) {
-      msg += `, ${i+1}. ${line[i]}`;
+      if (i === 0) {
+        msg += `${i+1}. ${line[i]}`;
+      } else {
+        msg += `, ${i+1}. ${line[i]}`;
+      } 
     }
   } else {
     msg = 'The line is currently empty.';
