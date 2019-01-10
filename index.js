@@ -26,5 +26,4 @@ function currentLine(line) {
   }
   return msg;
 }
-
-
+  
