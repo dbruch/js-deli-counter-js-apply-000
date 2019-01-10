@@ -1,3 +1,3 @@
-function takeANumber(lineArr, name) {
+function takeANumber(deliLine, name) {
   
 }
