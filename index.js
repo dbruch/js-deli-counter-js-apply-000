@@ -22,7 +22,7 @@ function currentLine(line) {
       msg += `, ${i+1}. ${line[i]}`;
     }
   } else {
-    msg = 'The line is curretly empty.';
+    msg = 'The line is currently empty.';
   }
   return msg;
 }
